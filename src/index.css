@@ -8,35 +8,55 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 225 20% 8%;
+    --foreground: 210 40% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 225 25% 12%;
+    --card-foreground: 210 40% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 225 25% 12%;
+    --popover-foreground: 210 40% 95%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 200 100% 60%;
+    --primary-foreground: 225 20% 8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 225 15% 18%;
+    --secondary-foreground: 210 40% 90%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 225 15% 15%;
+    --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 280 100% 70%;
+    --accent-foreground: 225 20% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 225 15% 20%;
+    --input: 225 15% 20%;
+    --ring: 200 100% 60%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
+
+    /* Eye tracking specific colors */
+    --eye-white: 0 0% 98%;
+    --iris-blue: 200 100% 60%;
+    --iris-green: 120 80% 50%;
+    --iris-purple: 280 100% 70%;
+    --pupil: 0 0% 5%;
+    --eye-shadow: 225 20% 5%;
+    --glow: 200 100% 60%;
+
+    /* Gradients */
+    --gradient-bg: linear-gradient(135deg, hsl(225 25% 6%) 0%, hsl(225 20% 12%) 100%);
+    --gradient-eye: radial-gradient(circle, hsl(var(--eye-white)) 0%, hsl(220 10% 90%) 100%);
+    --gradient-iris: radial-gradient(circle, hsl(var(--iris-blue)) 0%, hsl(210 90% 45%) 70%, hsl(220 60% 30%) 100%);
+
+    /* Animations */
+    --transition-smooth: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-eye: transform 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
 

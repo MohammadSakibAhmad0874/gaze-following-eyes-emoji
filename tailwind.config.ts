@@ -61,7 +61,32 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				eye: {
+					white: 'hsl(var(--eye-white))',
+					shadow: 'hsl(var(--eye-shadow))',
+					glow: 'hsl(var(--glow))'
+				},
+				iris: {
+					blue: 'hsl(var(--iris-blue))',
+					green: 'hsl(var(--iris-green))',
+					purple: 'hsl(var(--iris-purple))'
+				},
+				pupil: 'hsl(var(--pupil))'
+			},
+			backgroundImage: {
+				'gradient-bg': 'var(--gradient-bg)',
+				'gradient-eye': 'var(--gradient-eye)',
+				'gradient-iris': 'var(--gradient-iris)'
+			},
+			transitionProperty: {
+				'eye': 'transform'
+			},
+			transitionDuration: {
+				'eye': '100ms'
+			},
+			transitionTimingFunction: {
+				'eye': 'cubic-bezier(0.4, 0, 0.2, 1)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
